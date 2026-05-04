@@ -30,10 +30,10 @@ html.platform-osx .base__5e434 {
 html.platform-osx .systemBar_c38106 {
 	background: none;
 }
-:is(html.platform-linux, html.platform-win) .sidebarListRounded__5e434 {
+:is(html.platform-linux, html.platform-win, html.platform-web) .sidebarListRounded__5e434 {
 	border-top-left-radius: 8px !important;
 }
-:is(html.platform-linux, html.platform-win) .container__5e434:has(.notice__6e2b9, .bd-notice) .sidebarListRounded__5e434 {
+:is(html.platform-linux, html.platform-win, html.platform-web) .container__5e434:has(.notice__6e2b9, .bd-notice) .sidebarListRounded__5e434 {
 	border-top-left-radius: unset !important;
 }
 html.platform-osx .title_c38106 {
