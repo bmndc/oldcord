@@ -2518,12 +2518,12 @@ html:is([lang="en-us"]) .groupHeader__971b5[id="Filters"] [data-text-variant="te
 }
 
 .bar_c38106 .trailing_c38106 {
-	top: 51px;
+	top: 40px;
 	gap: 8px;
 	z-index: 102;
 }
 .bar_c38106 .trailing_c38106:has(> .clickable__9293f) {
-	top: 51px;
+	top: 40px;
 	gap: 8px;
 	z-index: 102;
 }
