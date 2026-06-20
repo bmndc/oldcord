@@ -46,6 +46,9 @@
 .user-profile-popout .banner__68edb {
 	mask-image: linear-gradient(to bottom, #fff, rgb(255 255 255 / 0%));
 }
+.user-profile-popout .displayNameRow__26b1f {
+	margin-top: 40px;
+}
 
 .custom-user-profile-theme .header__5be3e {
 	background: var(--profile-gradient-overlay-color);
@@ -60,11 +63,11 @@
 	background: var(--background-floating);
 	outline: 10px solid var(--background-floating);
 }
-.user-profile-modal-v2 .nickname__63ed3 {
-	top: 195px;
+.user-profile-modal-v2 .displayNameRow__26b1f {
+	top: 175px;
 }
-.user-profile-modal-v2 .tags__63ed3 {
-	top: 220px;
+.user-profile-modal-v2 .usernameAndPronounsRow__26b1f {
+	top: 195px;
 }
 .user-profile-modal-v2 .container_ab8609 {
 	top: 270px !important;
@@ -72,6 +75,9 @@
 .profileButtons__9c3be {
 	top: 290px;
 	padding-top: 20px;
+}
+.custom-theme-background .body__5be3e > div:first-child {
+	background: hsl(0deg 0% 0% / 40%) !important;
 }
 
 .outer_c0bea0:is(.user-profile-popout.outer_c0bea0) .container__63ed3 {
@@ -88,8 +94,7 @@
 	left: 85px !important;
 }
 /*add colors back*/
-.custom-user-profile-theme
-	:is(.inner_c0bea0, .profileBody__9c3be, .container__63ed3, .mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
+.custom-user-profile-theme :is(.inner_c0bea0, .profileBody__9c3be, .container__63ed3, .mutuals__530ce, .profile__9c3be .profileHeader__9c3be) {
 	margin-top: 0;
 	--profile-gradient-overlay-color: rgb(0 0 0 / 40%);
 	background: linear-gradient(
